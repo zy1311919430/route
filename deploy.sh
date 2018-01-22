@@ -8,6 +8,6 @@ echo "Start deployment" >>"$LOG_FILE"
 cd /Path/need/be/deployed/
 echo "pulling source code..." >> "$LOG_FILE"
 git checkout origin gh-pages
-git pull origin gh-pages
+git pull origin zhengyong
 echo "Finished." >>"$LOG_FILE"
 echo >> $LOG_FILE
