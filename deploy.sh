@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEB_PATH='/route'$1
+WEB_PATH='/zy1311919430/route'$1
 WEB_USER='root'
 WEB_USERGROUP='root'
 
