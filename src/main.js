@@ -9,6 +9,7 @@ var last = require('./last');
 Route.route({
     el:'.centent'
 })*/
+//路由配置
 var route = new Route({
     el:'.centent',
     default:home,
@@ -16,4 +17,8 @@ var route = new Route({
     two:two,
     three:three,
     last:last
+})
+//菜单高亮
+$('[zy-href]').on('click',function(){
+    $(this).addClass('active').siblings().removeClass('active');
 })
