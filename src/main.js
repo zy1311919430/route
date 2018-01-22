@@ -4,6 +4,7 @@ var Route = require('./public/route');
 var home = require('./home');
 var two = require('./two');
 var three = require('./three');
+var last = require('./last');
 /*
 Route.route({
     el:'.centent'
@@ -13,5 +14,6 @@ var route = new Route({
     default:home,
     home:home,
     two:two,
-    three:three
+    three:three,
+    last:last
 })
