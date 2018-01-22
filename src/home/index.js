@@ -6,6 +6,6 @@ var obj = {
 };
 obj.ready = function(){
     console.log('.home');
-    $('.home').append('<div>我是首页内容</div>')
+    $('.home').append('<div>我是首页内容a的修改</div><div>a再次修改</div>>')
 }
 module.exports = obj
